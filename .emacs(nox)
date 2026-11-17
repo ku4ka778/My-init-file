@@ -35,7 +35,6 @@
   (menu-bar-mode -1))
 
 ;; CustomFile
-(load (expand-file-name "time-in-emacs.el" user-emacs-directory) nil t)
 (load custom-file 'noerror)
 
 (put 'upcase-region 'disabled nil)
